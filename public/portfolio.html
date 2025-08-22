@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name] - View my latest projects and work">
+    <title>Portfolio - [Your Name]</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="logo">
+            <a href="/">[Your Logo/Name]</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/public/index.html">Home</a></li>
+                <li><a href="/public/about.html">About</a></li>
+                <li><a href="/public/portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="/public/blog.html">Blog</a></li>
+                <li><a href="/public/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="cta-button">Hire Me</button>
+    </header>
+
+    <!-- Portfolio Hero -->
+    <section class="hero portfolio-hero">
+        <div class="hero-content">
+            <h1>My Portfolio</h1>
+            <p class="hero-text">A showcase of my creative work and technical projects</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filters -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="projects-grid">
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>E-Commerce Platform</h3>
+                                <p>A full-stack e-commerce solution built with React and Node.js</p>
+                                <div class="project-tags">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                                <a href="/portfolio/project1" class="view-project-btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Brand Redesign</h3>
+                                <p>Complete visual identity overhaul for a tech startup</p>
+                                <div class="project-tags">
+                                    <span>Figma</span>
+                                    <span>Branding</span>
+                                    <span>UI Design</span>
+                                </div>
+                                <a href="/portfolio/project2" class="view-project-btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Fitness Tracking App</h3>
+                                <p>Mobile application for tracking workouts and nutrition</p>
+                                <div class="project-tags">
+                                    <span>React Native</span>
+                                    <span>Firebase</span>
+                                    <span>UX Research</span>
+                                </div>
+                                <a href="/portfolio/project3" class="view-project-btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Interested in Working Together?</h2>
+            <p>Let's discuss how we can bring your ideas to life</p>
+            <div class="cta-buttons">
+                <a href="/contact.html" class="button primary-button">Get in Touch</a>
+                <a href="/about.html" class="button secondary-button">Learn More About Me</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="newsletter">
+                <h3>Subscribe to Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
